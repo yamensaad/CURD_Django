@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'students_project'
+    'students_register'
 
 ]
 
@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'students_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'StudentsDB',
         'USER': 'postgres',
         'PASSWORD': 'root',
